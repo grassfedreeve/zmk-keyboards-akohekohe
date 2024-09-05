@@ -1,1 +1,3 @@
 name: zmk-keyboards-akohekohe
+  settings:
+    board_root: .
