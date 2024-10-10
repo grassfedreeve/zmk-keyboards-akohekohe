@@ -182,9 +182,11 @@
             key-positions = <0 2>;
         };
 
-        delword {
-            bindings = <&kp LC(BACKSPACE)>;
+        prtsc {
+            bindings = <&kp PRINTSCREEN>;
             key-positions = <5 7>;
+            require-prior-idle-ms = <100>;
+            timeout-ms = <40>;
         };
 
         caps {
