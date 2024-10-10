@@ -264,10 +264,10 @@
 
         nav {
             bindings = <
-           &kp LA(F4)     &kp LG(LEFT)     &kp LG(RIGHT)             &kp LC(W)  &kp PAGE_UP                      &kp PRINTSCREEN                          &kp UP    &kp HOME
-&kp LC(Z)  &kp LC(LS(T))  &kp LS(LC(TAB))  &kp LC(TAB)               &kp LC(A)  &kp PAGE_DOWN                    &kp LEFT                                 &kp DOWN  &kp RIGHT  &kp END
-           &kp LC(X)      &kp LC(C)        &mt LS(LC(V)) LS(INSERT)                            &kp LC(LS(LEFT))  &kp LS(LC(RIGHT))  &kp LS(LC(UP_ARROW))
-                                                                     &trans                                                                               &mo 2
+                      &kp LA(F4)                  &kp LG(LEFT)              &kp LG(RIGHT)             &kp LC(W)  &kp PAGE_UP                      &kp HOME                                 &kp UP    &kp END
+&mt LEFT_SHIFT LC(Z)  &mt LEFT_CONTROL LC(LS(T))  &mt LEFT_ALT LS(LC(TAB))  &mt LEFT_WIN LC(TAB)      &kp LC(A)  &kp PAGE_DOWN                    &kp LEFT                                 &kp DOWN  &kp RIGHT  &kp INSERT
+                      &kp LC(X)                   &kp LC(C)                 &mt LS(LC(V)) LS(INSERT)                            &kp LC(LS(LEFT))  &kp LS(LC(RIGHT))  &kp LS(LC(UP_ARROW))
+                                                                                                      &trans                                                                               &mo 2
             >;
         };
 
